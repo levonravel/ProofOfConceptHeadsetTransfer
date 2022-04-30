@@ -1,0 +1,11 @@
+D:\MyGit\ExampleHeadsetListener\ExampleHeadsetListener\bin\Debug\ExampleHeadsetListener.exe.config
+D:\MyGit\ExampleHeadsetListener\ExampleHeadsetListener\bin\Debug\ExampleHeadsetListener.exe
+D:\MyGit\ExampleHeadsetListener\ExampleHeadsetListener\bin\Debug\ExampleHeadsetListener.pdb
+D:\MyGit\ExampleHeadsetListener\ExampleHeadsetListener\obj\Debug\ExampleHeadsetListener.csproj.AssemblyReference.cache
+D:\MyGit\ExampleHeadsetListener\ExampleHeadsetListener\obj\Debug\ExampleHeadsetListener.csproj.SuggestedBindingRedirects.cache
+D:\MyGit\ExampleHeadsetListener\ExampleHeadsetListener\obj\Debug\ExampleHeadsetListener.csproj.CoreCompileInputs.cache
+D:\MyGit\ExampleHeadsetListener\ExampleHeadsetListener\obj\Debug\ExampleHeadsetListener.exe
+D:\MyGit\ExampleHeadsetListener\ExampleHeadsetListener\obj\Debug\ExampleHeadsetListener.pdb
+D:\MyGit\ExampleHeadsetListener\ExampleHeadsetListener\bin\Debug\Newtonsoft.Json.dll
+D:\MyGit\ExampleHeadsetListener\ExampleHeadsetListener\bin\Debug\Newtonsoft.Json.xml
+D:\MyGit\ExampleHeadsetListener\ExampleHeadsetListener\obj\Debug\ExampleHeadsetListener.csproj.CopyComplete
