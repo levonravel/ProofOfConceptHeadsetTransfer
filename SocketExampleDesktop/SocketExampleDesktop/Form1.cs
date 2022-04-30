@@ -85,8 +85,15 @@ namespace SocketExampleDesktop
                 {
                     tcpClient.Client.SendFile(fileLocation);
                     tcpClient.Close();
+                    ShowConfirmationUpload(clientAddress);
                 }
             }
+        }
+        private void ShowConfirmationUpload(EndPoint clientAddress)
+        {
+            var confirmResult = MessageBox.Show($"File Transfer",
+                                     $"File transfer complete sent to {clientAddress}",
+                                     MessageBoxButtons.OK);
         }
     }
 }

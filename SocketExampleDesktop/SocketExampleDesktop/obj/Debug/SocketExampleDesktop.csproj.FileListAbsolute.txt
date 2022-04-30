@@ -12,3 +12,17 @@ D:\MyGit\SocketExampleDesktop\SocketExampleDesktop\obj\Debug\SocketExampleDeskto
 D:\MyGit\SocketExampleDesktop\SocketExampleDesktop\bin\Debug\Newtonsoft.Json.dll
 D:\MyGit\SocketExampleDesktop\SocketExampleDesktop\bin\Debug\Newtonsoft.Json.xml
 D:\MyGit\SocketExampleDesktop\SocketExampleDesktop\obj\Debug\SocketExampleDesktop.csproj.CopyComplete
+D:\MyGit\ProofOfConceptHeadsetTransfer\SocketExampleDesktop\SocketExampleDesktop\bin\Debug\SocketExampleDesktop.exe.config
+D:\MyGit\ProofOfConceptHeadsetTransfer\SocketExampleDesktop\SocketExampleDesktop\bin\Debug\SocketExampleDesktop.exe
+D:\MyGit\ProofOfConceptHeadsetTransfer\SocketExampleDesktop\SocketExampleDesktop\bin\Debug\SocketExampleDesktop.pdb
+D:\MyGit\ProofOfConceptHeadsetTransfer\SocketExampleDesktop\SocketExampleDesktop\bin\Debug\Newtonsoft.Json.dll
+D:\MyGit\ProofOfConceptHeadsetTransfer\SocketExampleDesktop\SocketExampleDesktop\bin\Debug\Newtonsoft.Json.xml
+D:\MyGit\ProofOfConceptHeadsetTransfer\SocketExampleDesktop\SocketExampleDesktop\obj\Debug\SocketExampleDesktop.csproj.AssemblyReference.cache
+D:\MyGit\ProofOfConceptHeadsetTransfer\SocketExampleDesktop\SocketExampleDesktop\obj\Debug\SocketExampleDesktop.csproj.SuggestedBindingRedirects.cache
+D:\MyGit\ProofOfConceptHeadsetTransfer\SocketExampleDesktop\SocketExampleDesktop\obj\Debug\SocketExampleDesktop.Form1.resources
+D:\MyGit\ProofOfConceptHeadsetTransfer\SocketExampleDesktop\SocketExampleDesktop\obj\Debug\SocketExampleDesktop.Properties.Resources.resources
+D:\MyGit\ProofOfConceptHeadsetTransfer\SocketExampleDesktop\SocketExampleDesktop\obj\Debug\SocketExampleDesktop.csproj.GenerateResource.cache
+D:\MyGit\ProofOfConceptHeadsetTransfer\SocketExampleDesktop\SocketExampleDesktop\obj\Debug\SocketExampleDesktop.csproj.CoreCompileInputs.cache
+D:\MyGit\ProofOfConceptHeadsetTransfer\SocketExampleDesktop\SocketExampleDesktop\obj\Debug\SocketExampleDesktop.csproj.CopyComplete
+D:\MyGit\ProofOfConceptHeadsetTransfer\SocketExampleDesktop\SocketExampleDesktop\obj\Debug\SocketExampleDesktop.exe
+D:\MyGit\ProofOfConceptHeadsetTransfer\SocketExampleDesktop\SocketExampleDesktop\obj\Debug\SocketExampleDesktop.pdb
