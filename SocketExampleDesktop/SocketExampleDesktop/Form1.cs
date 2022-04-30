@@ -77,15 +77,14 @@ namespace SocketExampleDesktop
             foreach(var address in listBox1.Items)
             {
                 var clientAddress = (IPEndPoint)address;
-                tcpClient = new TcpClient();
-                tcpClient.Client.Bind(new IPEndPoint(IPAddress.Any, 0));
-                tcpClient.Client.Connect(clientAddress);
                 //skim through all of the files and upload the data to each of the clients
                 foreach (var fileLocation in fileExplorer.FileNames)
                 {
+                    tcpClient = new TcpClient();
+                    tcpClient.Client.Bind(new IPEndPoint(IPAddress.Any, 0));
+                    tcpClient.Client.Connect(clientAddress);
                     tcpClient.Client.SendFile(fileLocation);
                     tcpClient.Client.Close();
-                    tcpClient.Dispose();
                     ShowConfirmationUpload(clientAddress, fileLocation);
                 }
             }
