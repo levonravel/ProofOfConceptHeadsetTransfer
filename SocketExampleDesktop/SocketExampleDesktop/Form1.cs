@@ -31,8 +31,6 @@ namespace SocketExampleDesktop
         public Form1()
         {
             InitializeComponent();
-            tcpClient = new TcpClient();
-            tcpClient.Client.Bind(new IPEndPoint(IPAddress.Any, 0));
             udpClient = new UdpClient();
             udpClient.EnableBroadcast = true;
             udpClient.Client.Bind(new IPEndPoint(IPAddress.Any, 0));
@@ -78,21 +76,23 @@ namespace SocketExampleDesktop
             //send to each of the addresses under the listBox1.Items could have a progress bar but this is just proof of concept
             foreach(var address in listBox1.Items)
             {
-                var clientAddress = (IPEndPoint)address;                
-                tcpClient.Connect(clientAddress);
+                var clientAddress = (IPEndPoint)address;
+                tcpClient = new TcpClient();
+                tcpClient.Client.Bind(new IPEndPoint(IPAddress.Any, 0));
+                tcpClient.Client.Connect(clientAddress);
                 //skim through all of the files and upload the data to each of the clients
                 foreach (var fileLocation in fileExplorer.FileNames)
                 {
                     tcpClient.Client.SendFile(fileLocation);
-                    tcpClient.Close();
-                    ShowConfirmationUpload(clientAddress);
+                    tcpClient.Client.Close();
+                    tcpClient.Dispose();
+                    ShowConfirmationUpload(clientAddress, fileLocation);
                 }
             }
         }
-        private void ShowConfirmationUpload(EndPoint clientAddress)
+        private void ShowConfirmationUpload(EndPoint clientAddress, string filename)
         {
-            var confirmResult = MessageBox.Show($"File Transfer",
-                                     $"File transfer complete sent to {clientAddress}",
+            var confirmResult = MessageBox.Show($"File {filename} was sent to {clientAddress}", $"File Transfer",
                                      MessageBoxButtons.OK);
         }
     }
